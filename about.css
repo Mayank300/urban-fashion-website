@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.aboutheart {
+  position: absolute;
+  left: 50%;
+  top: 120%;
+}
+.placeholder {
+  position: absolute;
+  top: 180%;
+  left: 5%;
+}
+.centerimg {
+  position: absolute;
+  left: 30%;
+  top: -10%;
+}
+.aboutlogo {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  left: 33%;
+  top: 16%;
+  box-shadow: 30px 80px 220px rgba(217, 255, 1, 0.15);
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+.logotext {
+  position: absolute;
+  top: 36.5%;
+  left: 35%;
+  font-family: "Helvetica Neue";
+  font-size: 25px;
+}
+.aboutbg1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/background.png);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+}
+.aboutbg2 {
+  transform: rotate(-180deg);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/background.png);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+}
+.socialmedia {
+  position: absolute;
+  top: 230%;
+  left: 55%;
+}
+.socialmediaicon1 {
+  position: absolute;
+  top: 260%;
+  left: 5%;
+  max-width: 180px;
+  justify-content: space-between;
+}
+.socialmediaicon2 {
+  position: absolute;
+  top: 260%;
+  left: 20%;
+  max-width: 180px;
+  justify-content: space-between;
+}
+.socialmediaicon3 {
+  position: absolute;
+  top: 260%;
+  left: 35%;
+  max-width: 180px;
+  justify-content: space-between;
+}
